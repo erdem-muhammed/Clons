@@ -1,0 +1,120 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+main
+{
+    display: flex;
+    height: 90%;
+}
+.side
+{
+    width: 50%;
+    height: 100%;
+}
+.left img
+{
+    height: 90vh;
+    width: 50vw;
+}
+.right
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 40px;
+}
+.right img
+{
+    height: 42px;
+}
+.text1, .text2
+{
+    color: rgb(10, 10, 10);
+}
+.right .text1
+{
+    font-size: 4.0em;
+}
+.right .text2
+{
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.right .buttons
+{
+    display: flex;
+    flex-direction: column;
+}
+#signup, #login
+{
+    width: 375px;
+    height: 45px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 25px;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+#signup
+{
+    background-color: rgb(56, 160, 245);
+    color: white;
+}
+#signup:hover
+{
+    background-color: rgb(69, 142, 252);
+    transition: 0.3s;
+}
+#login
+{
+    color: rgb(69, 164, 243);
+    background-color: #fff;
+    border: 1px solid rgb(56, 160, 245);
+}
+#login:hover
+{
+    background-color: rgb(225, 235, 241);
+    transition: 0.3s;
+}
+footer
+{
+    height: 10%;
+    width: 100%;
+    padding: 10px 20px 0 20px;
+    font-size: 12px;
+    color: rgb(141, 141, 141);
+}
+footer .row1
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer .row2
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.row2 a
+{
+    margin-right: 10px;
+}
+footer a
+{
+    text-decoration: none;
+    color: rgb(141, 141, 141);
+}
+footer a:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
