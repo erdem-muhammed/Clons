@@ -27,17 +27,18 @@ header .menu
 {
     width: 20px;
     height: 20px;
-    margin-left: 3vw;
+    margin-left: 2.2vw;
 }
 #youtube-icon
 {
     width: 90px;
     height: 50px;
-    margin-left: 3vw;
+    margin-left: 2vw;
 }
 .searchBox
 {
-    margin-right: 3vw;
+    margin-right: 2vw;
+    margin-left: 1vw;
 }
 .searchBox input
 {
@@ -99,7 +100,27 @@ header .menu
 {
     width: 6vw;
     height: 200vh;
-    background-color: rgb(240, 18, 18);
+    text-align: center;
+    font-size: 11px;
+}
+.navibar>div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 18px 0;
+    color: #868281;
+    cursor: pointer;
+}
+.navibar>div:hover
+{
+    background-color: #ebe5e4;
+}
+.navibar div>img
+{
+    width: 20px;
+    height: 20px;
 }
 .content 
 {
