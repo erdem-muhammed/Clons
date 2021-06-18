@@ -11,7 +11,7 @@
    <header>
        <div class="menu">
            <div class="menubar">
-            <a href=""><img id="menu-icon" src="menu-icon.png"></a>
+            <span><img  onclick="openmenu()" id="menu-icon" src="menu-icon.png" style="cursor: pointer;"></span>
             <a class="youtube-icon" href="https://youtube.de"><img id="youtube-icon" src="youtube1.jpg"></a>
            </div>
            <div class="searchBox">
@@ -29,7 +29,8 @@
         </div>
    </header>
     <div class="container">
-      <div class="navibar">
+      <div class="navibar" id="navibar">
+    <div class="first-menu" id="first.menu"> 
       <div>
         <img src="home.png">
         <span>Home</span>
@@ -46,8 +47,57 @@
         <img src="library.png">
         <span>Library</span>
       </div>
+    </div> 
 
+    <div class="second-menu" id="second.menu">
+      <div class="menu-youtube-img">
+       <img src="menu-icon.png">
+       <img src="youtube1.jpg">
       </div>
+      
+      <div>
+        <img src="home.png">
+        <span>Home</span>
+      </div>
+      <div>
+        <img src="explore.png">
+        <span>Explore</span>
+      </div>
+      <div>
+        <img src="subscription.png">
+        <span>Subscriptions</span>
+      </div>
+    
+      <hr>
+    
+      <div>
+        <img src="library.png">
+        <span>Library</span>
+      </div>
+      <div>
+        <img src="history.png">
+        <span>History</span>
+      </div>
+      <div>
+        <img src="videos.png">
+        <span>Your Videos</span>
+      </div>
+      <div>
+        <img src="watchlater.png">
+        <span>Watch later</span>
+      </div>
+      <div>
+        <img src="like.png">
+        <span>Liked videos</span>
+      </div>
+
+      <hr>
+      
+      <span>SUBSCRIPTIONS</span>
+
+     
+    </div>
+    </div>
       <div class="content">
            <div class="interests">
               <div>
@@ -166,6 +216,9 @@
     </div>
 
     
-    
+
+    <script src="script.js"></script>
 </body>
 </html>
+
+#5B5454

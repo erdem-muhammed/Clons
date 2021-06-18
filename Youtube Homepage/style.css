@@ -103,7 +103,7 @@ header .menu
     text-align: center;
     font-size: 11px;
 }
-.navibar>div
+.navibar .first-menu>div, .navibar .second-menu>div
 {
     display: flex;
     justify-content: center;
@@ -113,14 +113,23 @@ header .menu
     color: #868281;
     cursor: pointer;
 }
-.navibar>div:hover
+.navibar .first-menu>div:hover, .navibar .second-menu>div:hover
 {
     background-color: #ebe5e4;
 }
-.navibar div>img
+.navibar .first-menu div>img, .navibar .second-menu div>img
 {
     width: 20px;
     height: 20px;
+}
+.navibar .second-menu .menu-youtube-img
+{
+    display: flex;
+    justify-content: space-around;
+}
+.navibar .second-menu
+{
+    display: none;
 }
 .content 
 {
