@@ -40,7 +40,7 @@ header .menu
     margin-right: 2vw;
     margin-left: 1vw;
 }
-.searchBox input
+.searchBox span input
 {
     width: 550px;
     height: 32px;
@@ -56,17 +56,32 @@ header .menu
 {
     height: 32px;
     padding: 0 12px;
-    outline-color: #34bdf7;
+    outline-color: #7ac2e0;
     font-size: 16px;
+    border: 1px solid rgb(226, 226, 226);
+    box-shadow: 1px 1px 2px 0px #FCFFFE;
 }
 .searchBox .inp button
 {
-    height: 32px;
+    padding: 7px 25px;
+    border: none;
+    position: absolute;
+    background-color: #f3f3f3;
+    cursor: pointer;
+}
+.searchBox .inp button:hover
+{
+    background-color: rgb(233, 232, 232);
+}
+.searchBox .inp button img
+{
+    height: 12px;
 }
 #voice
 {
     width: 24px;
     height: 24px;
+    margin-left: 6vw;
 }
 .user
 {
